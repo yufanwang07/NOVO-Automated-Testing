@@ -1,0 +1,36 @@
+[2025-06-18 16:30:06.290764] Page bf6b1cdcccdd871e57bdc32a5f40b4a8 analyzed.
+- The text element `text="HOME"` does not have a `resource-id`.
+- The text element `text="Youâ€™re in control"` displays `â€™` instead of an apostrophe, indicating a typo or encoding issue.
+- The text element `resource-id="com.novo.insurance.client:id/required_miles_label"` displays "200 mi", while the `resource-id="com.novo.insurance.client:id/miles_so_far_label"` displays "19 / 50 mi", showing a mismatch in the required miles total.
+[2025-06-18 16:30:22.384458] Page 515a2e11f1c853fb78a71467e6c08baf analyzed.
+- `android.widget.ImageView` with `bounds="[63,1576][1017,2019]"` has a blank `content-desc` field.
+[2025-06-18 16:31:27.560760] Non-functional clickable detected on page 15418170fc91ccc497813385038a738f:
+Bounds: [272,281][1018,389]
+No page change.
+[2025-06-18 16:31:36.369174] Non-functional clickable detected on page 15418170fc91ccc497813385038a738f:
+Bounds: [94,1556][986,1693]
+No page change.
+[2025-06-18 16:31:55.705207] Page fee673764729637dcbc99b9e5f0ad598 analyzed.
+- The email address displayed in the UI for "Yufan Wang" is "yufanwang.telenav@gmail.com", which contradicts the background user information stating the email is "yufanwang@telenav.com".
+[2025-06-18 16:32:19.214416] Non-functional clickable detected on page 15418170fc91ccc497813385038a738f:
+Bounds: [94,1830][986,1967]
+No page change.
+[2025-06-18 16:33:12.263061] Page 1010f5abe5760709865970cb5ca18fb6 analyzed.
+- Text element with `resource-id="com.novo.insurance.client:id/required_miles_label"` displays "200 mi", which conflicts with the "50 mi" stated in the `miles_so_far_label` ("19 / 50 mi") and implied by the user info (19 miles completed).
+- Text element with `resource-id="com.novo.insurance.client:id/your_are_in_control_text"` contains an encoding issue or typo, showing "Youâ€™re in control" instead of "You're in control".
+[2025-06-18 16:33:38.323344] Page 71a7884c5e9aa1dae5419ff46e750bd1 analyzed.
+- The character "â€¢" is displayed in the `trip_title` TextViews (e.g., "1:16 PM - 1:21 PM â€¢ 2.1 mi" and "12:13 PM - 12:26 PM â€¢ 2.17 mi"), which is likely an encoding error for a bullet point character.
+- A `FrameLayout` with bounds `[63,294][1017,1094]` is `clickable="true"` but has blank `text` and `content-desc`. While its child `TextureView` has `content-desc="Google Map"`, the clickable parent itself lacks an explicit description.
+[2025-06-18 16:34:00.978001] Page 72df24c7ce3f6d9581f5db92cf71e546 analyzed.
+- The text "1:16 PM - 1:21 PM â€¢ 2.1 mi" in the `TextView` with resource-id `com.novo.insurance.client:id/trip_title` contains a character `â€¢` which appears to be an encoding error for a bullet point.
+[2025-06-18 16:34:05.643146] Non-functional clickable detected on page 72df24c7ce3f6d9581f5db92cf71e546:
+Bounds: [0,231][1080,1771]
+No page change.
+[2025-06-18 16:34:42.700989] Page 19f4cf7e4deee26a980bb4fb6eb3ea72 analyzed.
+- TextView with text "1:16 PM - 1:21 PM â€¢ 2.1 mi" contains a character encoding issue where `â€¢` is displayed instead of a proper bullet point.
+- Two "Map Marker" views, one with bounds `[81,755][134,819]` and another with bounds `[86,787][128,829]`, are overlapping.
+[2025-06-18 16:34:47.309446] Non-functional clickable detected on page 19f4cf7e4deee26a980bb4fb6eb3ea72:
+Bounds: [0,231][1080,1771]
+No page change.
+[2025-06-18 16:35:18.865210] Page f9eda651089f4670edebcf75d4d4027a analyzed.
+[Gemini ERROR] Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 1.
