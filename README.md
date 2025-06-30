@@ -1,0 +1,2 @@
+Rule-based automated testing software for the NOVO insurance application, creates user + satisfies 5 trips/200 miles requirement, as well as basic agentic AI logic. Rule-based logic is deprecated as of version 3.0.0. Fast-adb logic is also present, potentially useful for debugging (but currently tailored to the NOVO application).
+Runtime is relatively easy: install all the required python packages, and run python fast_adb.py (not python3!).
